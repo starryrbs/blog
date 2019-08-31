@@ -113,13 +113,14 @@ const ui = [
 
 const pythonDesign = [
   {
-    title: '设计模式',
+    title: "设计模式",
     collapsable: false,
     children: [
-      '行为型模式/状态模式',
+      "行为型模式/状态模式",
+      "行为型模式/责任链模式"
     ]
   }
-]
+];
 
 const design = [
   {
