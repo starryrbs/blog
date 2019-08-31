@@ -161,15 +161,7 @@ const design = [
   }
 ]
 
-const weekly = [
-  '',
-  '2019/04-redis热key等问题研究',
-  '2019/03-心谭-无声半年',
-  '2019/02-心谭-如何缩小学习反馈周期',
-  '2019/01-心谭-第一期',
-  '2018/02-心谭-第二期',
-  '2018/01-心谭-第一期',
-]
+
 
 const webpack4 = [
   '零：前言',
@@ -335,7 +327,6 @@ module.exports = {
   '/docs/云开发技术/': cloud,
   '/docs/前端知识体系/': frontend,
   '/docs/设计模式手册/': design,
-  '/docs/每周分享/': weekly,
   '/docs/webpack4系列教程/': webpack4,
   '/docs/NodeJS/': nodejs,
   '/docs/UI设计/': ui,
