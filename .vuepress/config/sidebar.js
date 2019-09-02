@@ -117,7 +117,8 @@ const pythonDesign = [
     collapsable: false,
     children: [
       "行为型模式/状态模式",
-      "行为型模式/责任链模式"
+      "行为型模式/责任链模式",
+      "行为型模式/命令模式"
     ]
   }
 ];
