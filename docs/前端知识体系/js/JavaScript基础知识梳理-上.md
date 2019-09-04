@@ -310,3 +310,58 @@ const sum2 = arr.reduce((acc, current) => acc + current, 100);
 console.log(sum); // 6
 console.log(sum2); // 106
 ```
+
+### JavaScript：生成器（Generator）
+
+生成器（Generator）是 JavaScript ES6 引入的特性，它让我们可以分段执行一个函数。
+
+但是在谈论生成器（Generator）之前，我们要先了解迭代器（Iterator）。
+
+#### 迭代器（Iterator）
+
+迭代器（Iterator）并非 JavaScript 的特性，而是一种概念，需要我们自己实现。
+
+先看下面一段代码：
+
+```
+function makeIterator(array) {
+  let nextIndex = 0;
+  return {
+    next: function () {
+      return nextIndex < array.length ? {value: array[nextIndex++], done: false} : {done: true}
+    }
+  }
+}
+
+let it = makeIterator([1, 2, 3]);
+
+console.log(it.next());//{ value: 1, done: false }
+console.log(it.next());//{ value: 2, done: false }
+console.log(it.next());//{ value: 3, done: false }
+console.log(it.next());//{ done: true }
+console.log(it.next());//{ done: true }
+```
+
+可以看到，每调用一次 it.next()，就可以获取到一个值，同时可以通过 done 属性知道是否已经遍历完毕。
+
+#### 生成器（Generator）
+
+讲完迭代器，我们再来看一看生成器（Generator）。简单来说，生成器（Generator）就是一个自带迭代器（Iterator）的函数。
+
+一个简单的例子如下：
+
+```
+function* printOneToThree() {
+  yield 1;
+  yield 2;
+  yield 3;
+}
+
+let it = printOneToThree();
+console.log(it.next()); // {value: 1, done: false}
+console.log(it.next()); // {value: 2, done: false}
+console.log(it.next()); // {value: 3, done: false}
+console.log(it.next()); // {value: undefined, done: true}
+```
+
+可以看到，我们每调用一次 it.next()语句，就会运行一个 yield 表达式，直到所有的 yield 表达示全部运行完毕。如此一来，我们如开篇所说，具有了分段执行一个函数的能力。
