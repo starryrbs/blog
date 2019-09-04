@@ -1,23 +1,24 @@
 const {
   mdConf,
   themeConf,
-  localesConf,
-} = require('./config/')
+  localesConf
+} = require("./config/");
 
 module.exports = {
   locales: localesConf,
+  base: "/blog/",
   markdown: mdConf,
   themeConfig: themeConf,
   plugins: [
-    require('./plugins/my-router'),
-    require('./plugins/my-loader'),
-    require('vuepress-plugin-viewer'),
-    '@vuepress/back-to-top',
+    require("./plugins/my-router"),
+    require("./plugins/my-loader"),
+    require("vuepress-plugin-viewer"),
+    "@vuepress/back-to-top",
     [
-      '@vuepress/google-analytics', { 'ga': 'UA-124601890-1' }
+      "@vuepress/google-analytics", { "ga": "UA-124601890-1" }
     ],
     [
-      '@vuepress/pwa',
+      "@vuepress/pwa",
       {
         serviceWorker: true,
         updatePopup: {
@@ -27,22 +28,22 @@ module.exports = {
       }
     ],
     [
-      'vuepress-plugin-comment',
+      "vuepress-plugin-comment",
       {
-        choosen: 'gitalk',
+        choosen: "gitalk",
         options: {
-          clientID: '6558fdf298fa596c5d8c',
-          clientSecret: process.env.clientSecret || '',
-          repo: 'blog',
-          owner: 'starryrbs',
-          admin: ['starryrbs'],
-          id: '<%- frontmatter.commentid || frontmatter.permalink %>',      // Ensure uniqueness and length less than 50
+          clientID: "6558fdf298fa596c5d8c",
+          clientSecret: process.env.clientSecret || "",
+          repo: "blog",
+          owner: "starryrbs",
+          admin: ["starryrbs"],
+          id: "<%- frontmatter.commentid || frontmatter.permalink %>",      // Ensure uniqueness and length less than 50
           distractionFreeMode: false,  // Facebook-like distraction free mode
-          labels: ['Gitalk', 'Comment'],
-          title: '「评论」<%- frontmatter.title %>',
-          body: '<%- frontmatter.title %>：<%- window.location.origin %><%- frontmatter.to.path || window.location.pathname %>'
+          labels: ["Gitalk", "Comment"],
+          title: "「评论」<%- frontmatter.title %>",
+          body: "<%- frontmatter.title %>：<%- window.location.origin %><%- frontmatter.to.path || window.location.pathname %>"
         }
       }
     ]
   ]
-}
+};
