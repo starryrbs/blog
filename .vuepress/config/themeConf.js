@@ -1,7 +1,7 @@
 const sidebar = require('./sidebar')
 
 module.exports = {
-  repo: "starryrbs/hexo-blog",
+  repo: "https://github.com/starryrbs/blog",
   navbar: true,
   editLinks: true,
   editLinkText: "在 GitHub 上编辑此页",
@@ -28,7 +28,8 @@ module.exports = {
           items: [
             { text: "命令行交互", link: "/passages/2019-05-07-play-node-shell/" },
             { text: "测试", link: "/passages/2019-05-04-jest-base/" },
-            { text: "源码探索", link: "/passages/2019-05-02-node-block-chain/" }
+            { text: "源码探索", link: "/passages/2019-05-02-node-block-chain/" },
+            { text: "基础", link: "/passages/2019-09-02-node.js-basics/" }
           ]
         },
         {
