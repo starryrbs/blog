@@ -6,7 +6,7 @@ heroImage: "./edit-tools.png"
 tagline: 用心，谈技术
 actionText: 进入导航
 actionLink: "/guide/"
-footer: MIT Licensed | Copyright © 2019 心谭
+footer: MIT Licensed | Copyright © 2019 饶宝仕
 ---
 
 <div align="center" class="show-in-github">

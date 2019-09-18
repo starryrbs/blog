@@ -1,7 +1,7 @@
 const sidebar = require('./sidebar')
 
 module.exports = {
-  repo: "starryrbs/hexo-blog",
+  repo: "https://github.com/starryrbs/blog",
   navbar: true,
   editLinks: true,
   editLinkText: "在 GitHub 上编辑此页",
@@ -19,7 +19,8 @@ module.exports = {
             { text: "TypeScript", link: "/passages/2019-08-27-typescript-notes/" },
             { text: "ES6", link: "/passages/2019-04-09-es6/" },
             { text: "HTML5", link: "/passages/2019-04-10-html5-drag-drop/" },
-            { text: "浏览器与安全", link: "/passages/2019-05-15-browser/" }
+            { text: "浏览器与安全", link: "/passages/2019-05-15-browser/" },
+            { text: "vue", link: "/passages/2019-09-04-typescript-vue/" },
           ]
         },
         { text: "云开发技术", link: "/passages/2019-08-14-game-gomoku/" },
@@ -28,7 +29,8 @@ module.exports = {
           items: [
             { text: "命令行交互", link: "/passages/2019-05-07-play-node-shell/" },
             { text: "测试", link: "/passages/2019-05-04-jest-base/" },
-            { text: "源码探索", link: "/passages/2019-05-02-node-block-chain/" }
+            { text: "源码探索", link: "/passages/2019-05-02-node-block-chain/" },
+            { text: "基础", link: "/passages/2019-09-02-node.js-basics/" }
           ]
         },
         {

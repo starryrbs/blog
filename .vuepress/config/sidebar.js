@@ -203,7 +203,7 @@ const nodejs = [
       "源码探索/koa源码：手动实现"
     ]
   }
-];
+]
 
 const algorithmOffer = [
   "",
