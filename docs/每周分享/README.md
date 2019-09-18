@@ -1,7 +1,7 @@
 ---
-title: "专题介绍"
+title: "每周分享"
 date: "2019-06-10"
-permalink: "2019-06-10-weekly-share"
+permalink: "2019-09-18-weekly-sharing"
 ---
 
 ## 最初

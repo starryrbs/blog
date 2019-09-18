@@ -6,7 +6,7 @@ permalink: "2019-06-21-deep-in-koa-3"
 
 > 最近读了 koa2 的源码，理清楚了架构设计与用到的第三方库。本系列将分为 3 篇，分别介绍 koa 的架构设计和 3 个核心库，最终会手动实现一个简易的 koa。**这是系列第 3 篇，模拟实现玩具版 koa**。
 
-源码和测试代码放在了：[dongyuanxin/simple-koa](https://github.com/dongyuanxin/simple-koa)
+源码和测试代码放在了：[starryrbs/simple-koa](https://github.com/starryrbs/simple-koa)
 
 ## 准备
 

@@ -16,8 +16,8 @@ permalink: "2018-10-18-webpack-clean-and-watch-mode"
 
 ## 0. 课程介绍和资料
 
-- [>>>本节课源码](https://github.com/dongyuanxin/webpack-demos/tree/master/demo14)
-- [>>>所有课程源码](https://github.com/dongyuanxin/webpack-demos)
+- [>>>本节课源码](https://github.com/starryrbs/webpack-demos/tree/master/demo14)
+- [>>>所有课程源码](https://github.com/starryrbs/webpack-demos)
 
 本节课的代码目录如下：
 

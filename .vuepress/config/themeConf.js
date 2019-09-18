@@ -71,7 +71,7 @@ module.exports = {
     {
       text: "随手记",
       items: [
-        { text: "每周分享", link: "/passages/2019-08-31-design-pattern/" },
+        { text: "每周分享", link: "/passages/2019-09-18-weekly-sharing/" },
         { text: "Git手册", link: "/passages/2018-09-06-git-tag-and-version/" }
       ]
     },

@@ -219,7 +219,7 @@ self.addEventListener("fetch", event => {
 
 ## 参考链接
 
-- [本文全部代码地址](https://github.com/dongyuanxin/pwa-service-worker)
+- [本文全部代码地址](https://github.com/starryrbs/pwa-service-worker)
 - [Service Worker 生命周期](https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle?hl=zh-cn)
 - [百度团队：怎么使用 ServiceWorker](https://lavas.baidu.com/pwa/offline-and-cache-loading/service-worker/how-to-use-service-worker)
 - [Web Worker 开发模式](https://www.villainhr.com/page/2016/08/22/Web%20Worker)

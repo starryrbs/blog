@@ -530,7 +530,7 @@ function hasPropertyInPrototype(object, prototype) {
 ```javascript
 function Person() {}
 Person.prototype = {
-  name: "dongyuanxin"
+  name: "starryrbs"
 };
 Object.defineProperty(Person.prototype, "constructor", {
   enumerable: false, // Person.prototype.constructor 是不可枚举的
@@ -580,7 +580,7 @@ function PowerDate() {
 - 接口继承：继承方法签名
 - 实现继承：继承实际方法
 
-常见四种方法：[JavaScript 基础知识梳理-下](https://github.com/dongyuanxin/blog/blob/master/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/js/JavaScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86-%E4%B8%8B.md)
+常见四种方法：[JavaScript 基础知识梳理-下](https://github.com/starryrbs/blog/blob/master/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/js/JavaScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86-%E4%B8%8B.md)
 
 ## 第七章 函数表达式
 

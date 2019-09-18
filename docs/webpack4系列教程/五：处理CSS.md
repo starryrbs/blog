@@ -17,9 +17,9 @@ permalink: "2018-08-17-webpack-css"
 
 > 这节课讲解`webpack4`中打包`css`的应用。v4 版本和 v3 版本并没有特别的出入。
 
-[>>> 本节课源码](https://github.com/dongyuanxin/webpack-demos/tree/master/demo05)
+[>>> 本节课源码](https://github.com/starryrbs/webpack-demos/tree/master/demo05)
 
-[>>> 所有课程源码](https://github.com/dongyuanxin/webpack-demos)
+[>>> 所有课程源码](https://github.com/starryrbs/webpack-demos)
 
 ### 1. 准备工作
 

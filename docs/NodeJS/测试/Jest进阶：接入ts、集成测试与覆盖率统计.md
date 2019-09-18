@@ -58,7 +58,7 @@ module.exports = {
 
 它的优点在于，测试代码推上去后，直接在账号下的控制台就能看到测试结果，非常方便；而且可以在配置文件中，指明多个测试环境，比如 node 有 6、8、10，让测试更具有信服力。
 
-我把样例代码放在了 [try-travis-ci](https://github.com/dongyuanxin/try-travis-ci)  仓库下，可以跑一下看看。下面是 .travis.yml 文件内容。
+我把样例代码放在了 [try-travis-ci](https://github.com/starryrbs/try-travis-ci)  仓库下，可以跑一下看看。下面是 .travis.yml 文件内容。
 
 ```yaml
 sudo: false

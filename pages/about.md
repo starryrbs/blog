@@ -24,10 +24,10 @@ single: true
 
 _以下开源项目信息是 2019-05-01 当日的有效信息_
 
-1. [theme-bmw](https://github.com/dongyuanxin/theme-bmw): 支持分享、功能、版权声明、幻灯片播放、音乐播放、评论社交等功能。**Star 345**。
-2. [music-api-next](https://github.com/dongyuanxin/music-api-next): 一款支持网易、虾米和 QQ 音乐的 JS 爬虫库。**Star 57**。
-3. [news-emotion](https://github.com/dongyuanxin/news-emotion): 中文金融文本情感分析模型。已归档，**Star 114**。
-4. [webpack-demos](https://github.com/dongyuanxin/webpack-demos): webpack4 的 demo，而配套教程讲解在本博客。**Star 500**。
+1. [theme-bmw](https://github.com/starryrbs/theme-bmw): 支持分享、功能、版权声明、幻灯片播放、音乐播放、评论社交等功能。**Star 345**。
+2. [music-api-next](https://github.com/starryrbs/music-api-next): 一款支持网易、虾米和 QQ 音乐的 JS 爬虫库。**Star 57**。
+3. [news-emotion](https://github.com/starryrbs/news-emotion): 中文金融文本情感分析模型。已归档，**Star 114**。
+4. [webpack-demos](https://github.com/starryrbs/webpack-demos): webpack4 的 demo，而配套教程讲解在本博客。**Star 500**。
 5. [APlayer](https://github.com/MoePlayer/APlayer): B 站项目，H5 的播放组件，贡献代码并且被 merge。**Star 3700**。
 6. [Slate](https://github.com/ianstormtaylor/slate): gitbook 开源的全网最大 web 富文本，修复 bug 并且被 merge。**Star 14000**。
 
@@ -44,7 +44,7 @@ _以下开源项目信息是 2019-05-01 当日的有效信息_
 
 - Email: yuanxin.me@gmail.com
 - QQ 群：2181111110
-- Github：https://github.com/dongyuanxin
+- Github：https://github.com/starryrbs
 - 社交平台：
   - [思否](https://segmentfault.com/u/godbmw)
   - [掘金](https://juejin.im/user/5b91fcf06fb9a05d3c7fd4a5)

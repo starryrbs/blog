@@ -16,9 +16,9 @@ permalink: "2018-09-02-css-tree-shaking"
 
 ### 0. 课程介绍和资料
 
-[>>> 本节课源码](https://github.com/dongyuanxin/webpack-demos/tree/master/demo09)
+[>>> 本节课源码](https://github.com/starryrbs/webpack-demos/tree/master/demo09)
 
-[>>> 所有课程源码](https://github.com/dongyuanxin/webpack-demos)
+[>>> 所有课程源码](https://github.com/starryrbs/webpack-demos)
 
 本次课程的代码目录(如下图所示)：
 ![](https://static.godbmw.com/images/webpack/webpack4系列教程/18.png)

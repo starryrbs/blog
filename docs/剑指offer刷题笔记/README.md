@@ -18,7 +18,7 @@ permalink: "2019-06-23-algorithm-offer"
 
 希望这对于你之后的学习和面试稍有帮助，文章源码开放，食用请来[心谭博客](https://xin-tan.com/passages/2019-06-23-algorithm-offer/)。
 
-**如果您觉得还有点意思，欢迎鼓励一个 Star**：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)
+**如果您觉得还有点意思，欢迎鼓励一个 Star**：[https://github.com/starryrbs/blog](https://github.com/starryrbs/blog)
 
 ## 特别鸣谢
 

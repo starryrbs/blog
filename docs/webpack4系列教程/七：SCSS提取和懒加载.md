@@ -13,9 +13,9 @@ permalink: "2018-08-28-webpack-scss-lazy"
 
 > 本节课讲解在`webpack v4`中的 SCSS 提取和懒加载。值得一提的是，`v4`和`v3`在 Scss 的懒加载上的处理方法有着巨大差别。
 
-[>>> 本节课源码](https://github.com/dongyuanxin/webpack-demos/tree/master/demo07)
+[>>> 本节课源码](https://github.com/starryrbs/webpack-demos/tree/master/demo07)
 
-[>>> 所有课程源码](https://github.com/dongyuanxin/webpack-demos)
+[>>> 所有课程源码](https://github.com/starryrbs/webpack-demos)
 
 ### 1. 准备工作
 
