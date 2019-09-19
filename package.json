@@ -27,7 +27,7 @@
     "dev": "./node_modules/.bin/vuepress dev .",
     "start": "npm run dev",
     "build": "./node_modules/.bin/vuepress build .",
-    "preinstall": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d .vuepress/dist/"
   },
   "repository": {

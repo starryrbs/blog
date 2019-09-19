@@ -17,11 +17,29 @@ permalink: "2019-09-18-typescript-sharing"
 
 #### 为什么要使用 TypeScript？
 
+> javascript 方法声明示例
+
+```javascript
+function doSomething(a) {
+  //  code
+}
+```
+
+> typescript 方法声明示例
+
+```typescript
+function student(x: string, y: number): string {
+  return `我是${x},今年${y}岁`;
+}
+
+console.log(student("wzy", 22)); // 我是wzy,今年22岁
+```
+
 - 你调用一个别人写的函数，很不幸，这个家伙没有留下任何注释，为了搞清楚参数类型，你有可能是硬着头皮去看里面的逻辑，也有可能是找到写这个函数的人在哪里调用过这个函数，然后 console 出参数。
 
 <img src="http://ww1.sinaimg.cn/large/006hwvVnly1g757l806lfj306o06oaal.jpg" style="width:200px;height:200px;transform: translateX(-50%);margin-left: 50%;"/>
 
-- 为了保证代码的健壮性，你很有责任心，对一个函数的输入参数进行各种假设，最终给老板盛上了一碗香喷喷的意大利面。
+- 为了保证代码的健壮性，你很有责任心，对一个函数的输入参数进行各种假设，最终给 leader 盛上了一碗香喷喷的意大利面。
 
 <img src="http://ww1.sinaimg.cn/large/006hwvVnly1g757mc4cgfg308c08c0t9.gif"  style="width:200px;height:200px;transform: translateX(-50%);margin-left: 50%;"/>
 
@@ -245,7 +263,7 @@ class MyComponent extends Vue {}
 @Component({ /* 这里和js版本编写的 vue 组件内容相同， *
 凡是不能在ts里面完成的都可以在这里完成 * 最终会被合并到一个实例中。 *
 在这里定义的内容，不会被语法器获取到，因此必须要同步在class中声明 */ data(){
-return { myname:"",age:18 } } }) class MyComponent extends Vue { private
+return { myname:"",age:18 } } } ) class MyComponent extends Vue { private
 myname:string; mounted(){ this.myname; this.age;//
 语法器报错，当前类找不到age属性 } }
 ```
@@ -300,3 +318,13 @@ class PComponent extends Vue {}
 ### 4. 怎么样学好 TypeScript？
 
 <img style="margin-top:50px;" src="http://ww1.sinaimg.cn/large/006hwvVnly1g7571y5yd7j30ng0uiqd9.jpg"/>
+
+> 参考
+
+<a href="https://juejin.im/post/5c67d9b66fb9a049b41d0119"  target="_blank">Vue 框架 TypeScript 装饰器使用指南</a>
+
+<a href="https://www.jianshu.com/p/55a23872b39b"  target="_blank">Vue2.X 强上 TypeScript</a>
+
+<a href="https://juejin.im/post/5c662a7de51d4562e71c4277"  target="_blank">如何使用 vue + typescript 编写页面 ( 基础装饰器部分 )</a>
+
+<a href="https://www.tslang.cn/index.html"  target="_blank">typescript 官网</a>

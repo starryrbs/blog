@@ -8,7 +8,7 @@ module.exports = {
   locales: localesConf,
   markdown: mdConf,
   themeConfig: themeConf,
-  base: "/blog",
+  base: "/blog/",
   plugins: [
     require("./plugins/my-router"),
     require("./plugins/my-loader"),
