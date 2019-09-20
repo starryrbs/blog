@@ -285,3 +285,143 @@ function mockData() {
   };
 }
 ```
+
+### call、apply、bind 使用和区别
+
+1. apply 的用法和使用场景(<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/apply">详细解释</a>)
+
+   apply() 方法调用一个具有给定 this 值的函数，以及作为一个数组（或类似数组对象）提供的参数。
+
+   > 注意：call()方法的作用和 apply() 方法类似，区别就是 call()方法接受的是参数列表，而 apply()方法接受的是一个参数数组。
+
+   #### 语法
+
+   ```ecmascript 6
+   func.apply(thisArg, [argsArray])
+   ```
+
+   #### 参数
+
+   > thisArg
+
+   可选的。在 func 函数运行时使用的 this 值。请注意，this 可能不是该方法看到的实际值：如果这个函数处于非严格模式下，则指定为 null 或 undefined 时会自动替换为指向全局对象，原始值会被包装。
+
+   > argsArray
+
+   可选的。一个数组或者类数组对象，其中的数组元素将作为单独的参数传给 func 函数。如果该参数的值为 null 或 undefined，则表示不需要传入任何参数。从 ECMAScript 5 开始可以使用类数组对象。 浏览器兼容性 请参阅本文底部内容。
+
+   #### 返回值
+
+   调用有指定 this 值和参数的函数的结果。
+
+   #### 使用示例
+
+   - 用 apply 将数组添加到另一个数组
+
+     ```ecmascript 6
+     var array = ['a', 'b'];
+     var elements = [0, 1, 2];
+     array.push.apply(array, elements);//基本等同于array.push(...elements)
+     console.info(array); // ["a", "b", 0, 1, 2]
+     ```
+
+   - 使用 apply 和内置函数
+
+     ```ecmascript 6
+     /* 找出数组中最大/小的数字 */
+     var numbers = [5, 6, 2, 3, 7];
+
+     /* 应用(apply) Math.min/Math.max 内置函数完成 */
+     var max = Math.max.apply(null, numbers); /* 基本等同于 Math.max(numbers[0], ...) 或 Math.max(5, 6, ..) */
+     ```
+
+2. bind 的用法和使用场景(<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/bind">详细解释</a>)
+
+   bind()方法创建一个新的函数，在 bind()被调用时，这个新函数的 this 被 bind 的第一个参数指定，其余的参数将作为新函数的参数供调用时使用。
+
+   #### 语法
+
+   ```ecmascript 6
+   function.bind(thisArg[,arg1[,arg2[, ...]]])
+   ```
+
+   #### 参数
+
+   > thisArg
+
+   调用绑定函数时作为 this 参数传递给目标函数的值。 如果使用 new 运算符构造绑定函数，则忽略该值。当使用 bind 在 setTimeout 中创建一个函数（作为回调提供）时，作为 thisArg 传递的任何原始值都将转换为 object。如果 bind 函数的参数列表为空，执行作用域的 this 将被视为新函数的 thisArg。
+
+   > argsArray
+
+   当目标函数被调用时，预先添加到绑定函数的参数列表中的参数。
+
+   #### 返回值
+
+   返回一个原函数的拷贝，并拥有指定的 this 值和初始参数。
+
+   #### 使用示例
+
+   bind() 最简单的用法是创建一个函数，不论怎么调用，这个函数都有同样的 this 值。
+   JavaScript 新手经常犯的一个错误是将一个方法从对象中拿出来，然后再调用，期望方法中的 this 是原来的对象
+   （比如在回调中传入这个方法）。如果不做特殊处理的话，一般会丢失原来的对象。
+   基于这个函数，用原始的对象创建一个绑定函数，巧妙地解决了这个问题：
+
+   - 创建绑定函数
+
+     ```ecmascript 6
+     x = 9;    // 在浏览器中，this指向全局的 "window" 对象
+     var module = {
+       x: 81,
+       getX: function() { return this.x; }
+     };
+
+     module.getX(); // 81
+
+     var retrieveX = module.getX;
+     retrieveX();
+     // 返回9 - 因为函数是在全局作用域中调用的
+
+     // 创建一个新函数，把 'this' 绑定到 module 对象
+     // 新手可能会将全局变量 x 与 module 的属性 x 混淆
+     var boundGetX = retrieveX.bind(module);
+     boundGetX(); // 81
+     ```
+
+   - 偏函数
+
+     bind()的另一个最简单的用法是使一个函数拥有预设的初始参数。只要将这些参数（如果有的话）
+     作为 bind()的参数写在 this 后面。当绑定函数被调用时，这些参数会被插入到目标函数的参数列表的开始位置，
+     传递给绑定函数的参数会跟在它们后面。
+
+     ```ecmascript 6
+
+     function list() {
+       return Array.prototype.slice.call(arguments);
+     }
+
+     function addArguments(arg1, arg2) {
+         return arg1 + arg2
+     }
+
+     var list1 = list(1, 2, 3); // [1, 2, 3]
+
+     var result1 = addArguments(1, 2); // 3
+
+     // 创建一个函数，它拥有预设参数列表。
+     var leadingThirtysevenList = list.bind(null, 37);
+
+     // 创建一个函数，它拥有预设的第一个参数
+     var addThirtySeven = addArguments.bind(null, 37);
+
+     var list2 = leadingThirtysevenList();
+     // [37]
+
+     var list3 = leadingThirtysevenList(1, 2, 3);
+     // [37, 1, 2, 3]
+
+     var result2 = addThirtySeven(5);
+     // 37 + 5 = 42
+
+     var result3 = addThirtySeven(5, 10);
+     // 37 + 5 = 42 ，第二个参数被忽略
+     ```
