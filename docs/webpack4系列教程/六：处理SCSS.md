@@ -12,9 +12,9 @@ permalink: "2018-08-18-webpack-scss"
 
 > 这节课讲解`webpack4`中处理`scss`。只需要在处理`css`的配置上增加编译`scss`的 LOADER 即可。[了解更多处理`css`的内容 >>>](http://yuanxin.me/#/passage/36)
 
-[>>> 本节课源码](https://github.com/dongyuanxin/webpack-demos/tree/master/demo06)
+[>>> 本节课源码](https://github.com/starryrbs/webpack-demos/tree/master/demo06)
 
-[>>> 所有课程源码](https://github.com/dongyuanxin/webpack-demos)
+[>>> 所有课程源码](https://github.com/starryrbs/webpack-demos)
 
 ### 1. 准备工作
 

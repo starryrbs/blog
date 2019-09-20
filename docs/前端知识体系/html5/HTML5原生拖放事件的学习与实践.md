@@ -42,7 +42,7 @@ permalink: "2019-04-10-html5-drag-drop"
 
 ### 效果展示
 
-为了方便说明，先看代码实现的效果。请前往  [Github 仓库](https://github.com/dongyuanxin/html5-drag-drop)  下载 `demo.html`  和 `demo.js`  到本地，然后用 Chrome 打开 html 文件，初始效果如下图：
+为了方便说明，先看代码实现的效果。请前往  [Github 仓库](https://github.com/starryrbs/html5-drag-drop)  下载 `demo.html`  和 `demo.js`  到本地，然后用 Chrome 打开 html 文件，初始效果如下图：
 
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1554824440934-6b099e29-5d03-47c8-9fcd-358dfac034ce.png#align=left&display=inline&height=489&name=image.png&originHeight=612&originWidth=329&size=8385&status=done&width=263)
 
@@ -168,6 +168,6 @@ function onDrop(event) {
 
 ### 参考链接
 
-- 代码地址: [Github](https://github.com/dongyuanxin/html5-drag-drop)
+- 代码地址: [Github](https://github.com/starryrbs/html5-drag-drop)
 - [《HTML5 拖放》](http://www.w3school.com.cn/html5/html_5_draganddrop.asp)
 - [《HTML5 原生拖拽/拖放》](https://juejin.im/post/5a169d08518825592c07c666)

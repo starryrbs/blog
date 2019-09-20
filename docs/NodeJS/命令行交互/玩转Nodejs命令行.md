@@ -13,7 +13,7 @@ permalink: "2019-05-07-play-node-shell"
 1. 细致控制字体颜色和背景颜色
 1. 状态显示，例如：等待过程前面是转圈圈，完成过程前面自动换成对号
 
-代码仓库地址：[play-node-command](https://github.com/dongyuanxin/play-node-command) 。可以直接 clone 到本地，依次跑一下目录下的 4 个以 play 开头的 js 文件，就能直观看到效果。
+代码仓库地址：[play-node-command](https://github.com/starryrbs/play-node-command) 。可以直接 clone 到本地，依次跑一下目录下的 4 个以 play 开头的 js 文件，就能直观看到效果。
 
 ## 读取参数: commander
 

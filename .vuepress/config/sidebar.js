@@ -24,10 +24,7 @@ const frontend = [
   {
     title: "TypeScript",
     collapsable: false,
-    children: [
-      "typescript/01.基础篇",
-      "typescript/02.实战篇"
-    ]
+    children: ["typescript/01.基础篇", "typescript/02.实战篇"]
   },
   {
     title: "ES6",
@@ -105,9 +102,7 @@ const ui = [
   {
     title: "项目实战",
     collapsable: false,
-    children: [
-      "项目实战/个人博客UI设计"
-    ]
+    children: ["项目实战/个人博客UI设计"]
   }
 ];
 
@@ -162,7 +157,6 @@ const design = [
   }
 ];
 
-
 const webpack4 = [
   "零：前言",
   "一：打包JS",
@@ -187,9 +181,7 @@ const nodejs = [
   {
     title: "命令行交互",
     collapsable: false,
-    children: [
-      "命令行交互/玩转Nodejs命令行"
-    ]
+    children: ["命令行交互/玩转Nodejs命令行"]
   },
   {
     title: "测试",
@@ -203,18 +195,15 @@ const nodejs = [
     title: "源码探索",
     collapsable: false,
     children: [
-      "源码探索/实现简易区块链"
-    ]
-  },
-  {
-    title: "基础",
-    collapsable: false,
-    children: [
-      "基础/教程/NodeJs事件循环",
-      "基础/教程/NodeJs回调函数"
+      "源码探索/实现简易区块链",
+      "源码探索/负载均衡：轮询调度算法实现",
+      "源码探索/VemoJS源码拆解",
+      "源码探索/koa源码：架构设计",
+      "源码探索/koa源码：核心库原理",
+      "源码探索/koa源码：手动实现"
     ]
   }
-];
+]
 
 const algorithmOffer = [
   "",
@@ -311,22 +300,20 @@ const algorithmOffer = [
   {
     title: "哈希表",
     collapsable: false,
-    children: [
-      "哈希表/01-丑数",
-      "哈希表/02-第一次只出现一次的字符"
-    ]
+    children: ["哈希表/01-丑数", "哈希表/02-第一次只出现一次的字符"]
   },
   {
     title: "堆",
     collapsable: false,
-    children: [
-      "堆/01-最小的k个数"
-    ]
+    children: ["堆/01-最小的k个数"]
   }
 ];
 
+const weeklySharing = ["typescript分享"];
+
 module.exports = {
   "/docs/Git实战手册/": git,
+  "/docs/每周分享/": weeklySharing,
   "/docs/云开发技术/": cloud,
   "/docs/前端知识体系/": frontend,
   "/docs/设计模式手册/": design,

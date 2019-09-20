@@ -16,8 +16,8 @@ footer: MIT Licensed | Copyright © 2019 饶宝仕
 
 <div align="center" class="show-in-github">
   <a href="https://xin-tan.com/"> <img src="https://img.shields.io/badge/online-阅读-success.svg?style=popout-square"></a>
-  <a href="https://github.com/dongyuanxin"> <img src="https://img.shields.io/badge/author-心谭-ff69b4.svg?style=popout-square"></a>
-  <a href="https://github.com/dongyuanxin/blog/blob/master/LICENSE"> <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=popout-square"></a>
+  <a href="https://github.com/starryrbs"> <img src="https://img.shields.io/badge/author-心谭-ff69b4.svg?style=popout-square"></a>
+  <a href="https://github.com/starryrbs/blog/blob/master/LICENSE"> <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=popout-square"></a>
   <a href="https://xin-tan.com/"> <img src="https://img.shields.io/badge/about-前端|算法|UI|工具-fa8c16.svg?style=popout-square"></a>
   <br/><br/>
 </div>
@@ -59,12 +59,12 @@ footer: MIT Licensed | Copyright © 2019 饶宝仕
 
 ## 💡 实验室
 
-- [theme-art-design](https://github.com/dongyuanxin/theme-ad)：提供简约UI和丰富功能的博客框架
-- [theme-bmw](https://github.com/dongyuanxin/theme-bmw)：基于Hexo的博客主题
-- [vuepress-plugin-comment](https://github.com/dongyuanxin/vuepress-plugin-comment)：支持在Vuepress中使用 Valine / Gitalk 
-- [page-counter](https://github.com/dongyuanxin/page-counter)：无后端 + 一行代码的极简网页计数器
-- [music-api-next](https://github.com/dongyuanxin/music-api-next)：qq音乐、网易音乐、5sing、虾米音乐这四个平台的音乐破解库
-- [news-emotion](https://github.com/dongyuanxin/news-emotion)：中短金融文本情感倾向判断的机器学习模型
+- [theme-art-design](https://github.com/starryrbs/theme-ad)：提供简约 UI 和丰富功能的博客框架
+- [theme-bmw](https://github.com/starryrbs/theme-bmw)：基于 Hexo 的博客主题
+- [vuepress-plugin-comment](https://github.com/starryrbs/vuepress-plugin-comment)：支持在 Vuepress 中使用 Valine / Gitalk
+- [page-counter](https://github.com/starryrbs/page-counter)：无后端 + 一行代码的极简网页计数器
+- [music-api-next](https://github.com/starryrbs/music-api-next)：qq 音乐、网易音乐、5sing、虾米音乐这四个平台的音乐破解库
+- [news-emotion](https://github.com/starryrbs/news-emotion)：中短金融文本情感倾向判断的机器学习模型
 
 ## 🤲🏻 协作者
 

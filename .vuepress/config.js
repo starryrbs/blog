@@ -6,9 +6,9 @@ const {
 
 module.exports = {
   locales: localesConf,
-  base: "/blog/",
   markdown: mdConf,
   themeConfig: themeConf,
+  base: "/blog/",
   plugins: [
     require("./plugins/my-router"),
     require("./plugins/my-loader"),
@@ -32,8 +32,8 @@ module.exports = {
       {
         choosen: "gitalk",
         options: {
-          clientID: "6558fdf298fa596c5d8c",
-          clientSecret: process.env.clientSecret || "",
+          clientID: "db28f0545b74326210bf",
+          clientSecret: process.env.clientSecret || "aa00eee4bbe0564d5d13c6f1af2b35c24240d7bf",
           repo: "blog",
           owner: "starryrbs",
           admin: ["starryrbs"],

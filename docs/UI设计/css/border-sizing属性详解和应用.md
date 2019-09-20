@@ -30,7 +30,7 @@ permalink: "2018-06-05-border-sizing"
 实现如下效果图：
 ![](https://static.godbmw.com/images/CSS/border-sizing属性详解和应用/1.png)
 
-**代码：**[源码下载](https://github.com/dongyuanxin/markdown-static/blob/master/CSS/border-sizing%E5%B1%9E%E6%80%A7%E8%AF%A6%E8%A7%A3%E5%92%8C%E5%BA%94%E7%94%A8/index.html)
+**代码：**[源码下载](https://github.com/starryrbs/markdown-static/blob/master/CSS/border-sizing%E5%B1%9E%E6%80%A7%E8%AF%A6%E8%A7%A3%E5%92%8C%E5%BA%94%E7%94%A8/index.html)
 
 ```html
 <!DOCTYPE html>

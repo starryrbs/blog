@@ -61,4 +61,4 @@ fi
 
 **通过`git push --force`强行推送修改后的 log 信息。**
 
-哈哈，[我的 github](https://github.com/dongyuanxin/markdown-static)又重新绿了起来。
+哈哈，[我的 github](https://github.com/starryrbs/markdown-static)又重新绿了起来。

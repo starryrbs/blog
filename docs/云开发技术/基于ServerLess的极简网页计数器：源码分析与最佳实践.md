@@ -8,7 +8,7 @@ permalink: "2019-05-18-serverless-page-counter"
 
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1558170012750-30c5b80b-d61b-4c71-9a20-6f98dbc2d81d.png#align=left&display=inline&height=898&name=image.png&originHeight=898&originWidth=1311&size=43753&status=done&width=1311)
 
-这几天基于支持 HTML5 无感认证的 ServerLess 平台开发了一款博客、门户网站等 web 平台常用的 PV 统计工具：[page-counter](https://github.com/dongyuanxin/page-counter) 。主要用到的技术是 js+webpack。
+这几天基于支持 HTML5 无感认证的 ServerLess 平台开发了一款博客、门户网站等 web 平台常用的 PV 统计工具：[page-counter](https://github.com/starryrbs/page-counter) 。主要用到的技术是 js+webpack。
 
 回首看来，解决了以下几个比较有意思的问题：
 
@@ -17,7 +17,7 @@ permalink: "2019-05-18-serverless-page-counter"
 - 如何精简源码，源码大小控制在 4kb？
 - 如何借助 webpack 分离生产和测试环境？
 
-源码地址：[https://github.com/dongyuanxin/page-counter](https://github.com/dongyuanxin/page-counter)<br />npm 地址：[https://www.npmjs.com/package/page-counter](https://www.npmjs.com/package/page-counter)
+源码地址：[https://github.com/starryrbs/page-counter](https://github.com/starryrbs/page-counter)<br />npm 地址：[https://www.npmjs.com/package/page-counter](https://www.npmjs.com/package/page-counter)
 
 如果有兴趣的同学，欢迎在阅读完本文后一起接入其他平台的开发； **觉得不错的同学，欢迎给个 Star 哦** 。
 

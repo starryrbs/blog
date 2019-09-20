@@ -6,9 +6,9 @@ permalink: "2018-07-31-webpack-compile-es6"
 
 > 今天介绍`webpack`怎么编译`ES6`的各种函数和语法。敲黑板：**这是`webpack4`版本哦, 有一些不同于`webpack3`的地方。**
 
-[>>> 本节课源码](https://github.com/dongyuanxin/webpack-demos/tree/master/demo02)
+[>>> 本节课源码](https://github.com/starryrbs/webpack-demos/tree/master/demo02)
 
-[>>> 所有课程源码](https://github.com/dongyuanxin/webpack-demos)
+[>>> 所有课程源码](https://github.com/starryrbs/webpack-demos)
 
 ### 1. 了解`babel`
 
@@ -41,7 +41,7 @@ permalink: "2018-07-31-webpack-compile-es6"
 }
 ```
 
-[>>> package.json 配置地址](https://github.com/dongyuanxin/webpack-demos/blob/master/demo02/package.json)
+[>>> package.json 配置地址](https://github.com/starryrbs/webpack-demos/blob/master/demo02/package.json)
 
 ### 3. `webpack`中使用`babel`
 
@@ -87,9 +87,9 @@ module.exports = {
 };
 ```
 
-[>>> .babelrc 地址](https://github.com/dongyuanxin/webpack-demos/blob/master/demo02/.babelrc)
+[>>> .babelrc 地址](https://github.com/starryrbs/webpack-demos/blob/master/demo02/.babelrc)
 
-[>>> 配置文件地址](https://github.com/dongyuanxin/webpack-demos/blob/master/demo02/webpack.config.js)
+[>>> 配置文件地址](https://github.com/starryrbs/webpack-demos/blob/master/demo02/webpack.config.js)
 
 ### 4. 最后：`babel-polyfill`
 

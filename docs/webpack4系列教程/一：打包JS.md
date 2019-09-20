@@ -12,7 +12,7 @@ permalink: "2018-07-30-webpack-pack-js"
 
 创建`vendor`文件夹，其中`minus.js`、`multi.js`和`sum.js`分别用 CommonJS、AMD 和 ES6 规范编写。
 
-[>>> vendor 文件夹 代码地址](https://github.com/dongyuanxin/webpack-demos/tree/master/demo01/vendor)
+[>>> vendor 文件夹 代码地址](https://github.com/starryrbs/webpack-demos/tree/master/demo01/vendor)
 
 在入口文件`app.js`中，我们分别用 3 中规范，引用`vendor`文件夹中的 js 文件。
 
@@ -33,7 +33,7 @@ require(["./vendor/multi"], function(multi) {
 
 ### 2. 编写配置文件
 
-`webpack.config.js`是 webpack 默认的配置文件名，[>>> webpack.config.js 代码地址](https://github.com/dongyuanxin/webpack-demos/blob/master/demo01/webpack.config.js)，其中配置如下：
+`webpack.config.js`是 webpack 默认的配置文件名，[>>> webpack.config.js 代码地址](https://github.com/starryrbs/webpack-demos/blob/master/demo01/webpack.config.js)，其中配置如下：
 
 ```javascript
 const path = require("path");
@@ -60,6 +60,6 @@ module.exports = {
 
 ### 4. 更多
 
-本节的代码地址：[>>> 点我进入](https://github.com/dongyuanxin/webpack-demos/tree/master/demo01)
+本节的代码地址：[>>> 点我进入](https://github.com/starryrbs/webpack-demos/tree/master/demo01)
 
-项目的代码仓库：[>>> 点我进入](https://github.com/dongyuanxin/webpack-demos)
+项目的代码仓库：[>>> 点我进入](https://github.com/starryrbs/webpack-demos)

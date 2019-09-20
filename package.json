@@ -28,8 +28,16 @@
     "start": "npm run dev",
     "build": "./node_modules/.bin/vuepress build .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .vuepress/dist"
+    "deploy": "gh-pages -d .vuepress/dist/"
   },
-
-  "homepage": "https://starryrbs.github.io/blog/"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starryrbs/blog.git"
+  },
+  "author": "饶宝仕",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starryrbs/blog/issues"
+  },
+  "homepage": "https://github.com/starryrbs/blog#readme"
 }
